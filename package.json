@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "name": "vocaltranslate",
+  "version": "1.0.0",
+  "description": "Contains Information About The Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "HamudTheGreat",
+  "license": "ISC"
+}
