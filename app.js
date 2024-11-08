@@ -8,6 +8,6 @@ app.get("/home" , (req,res)=>{
 
 
 
-app.listen(8000 , (req,res)=>{
-    console.log("server is running ")
-})
+
+
+module.exports = app;
