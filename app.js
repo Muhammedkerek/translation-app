@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const translatorRouter = require("./Routes/translaterRoute");
 
 
 app.get("/home" , (req,res)=>{
@@ -7,6 +8,12 @@ app.get("/home" , (req,res)=>{
 })
 
 
+app.use(express.static(`${__dirname}/starter/public`))
+
+
+app.use(express.json());
+
+app.use("/api/vocalapp" , translatorRouter);
 
 
 
