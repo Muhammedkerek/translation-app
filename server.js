@@ -1,6 +1,7 @@
-const dotenv = require("dotenv");
+require("dotenv").config();
 // we use the dotenv package to access the config.env file which stores the critical information about the app
 const app = require("./app");
+
 
 
 

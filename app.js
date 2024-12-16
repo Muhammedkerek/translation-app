@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 const translatorRouter = require("./Routes/translaterRoute");
+const cors = require("cors");
+
+app.use(cors());
+
 
 
 app.get("/home" , (req,res)=>{
